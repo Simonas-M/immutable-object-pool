@@ -1,0 +1,39 @@
+{
+  "name": "@mkl/immutable-object-pool",
+  "version": "1.0.0",
+  "description": "A JavaScript library for reusing the same objects to save up on memory",
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "files": [
+    "./dist",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test --experimental-transform-types"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simonas-M/immutable-object-pool.git"
+  },
+  "keywords": [
+    "object",
+    "cache",
+    "pool",
+    "memory",
+    "recycle",
+    "immutable",
+    "storage",
+    "schema"
+  ],
+  "author": "Simonas Mikulis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Simonas-M/immutable-object-pool/issues"
+  },
+  "homepage": "https://github.com/Simonas-M/immutable-object-pool#readme",
+  "devDependencies": {
+    "@types/node": "22.13.14",
+    "typescript": "5.8.2"
+  }
+}
